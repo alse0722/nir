@@ -1,0 +1,6 @@
+Elapsed time: 0.002 seconds
+Statistics:
+┌─dom_number─┬─geo_number─┬─count─┐
+│           2│           2│      1│
+│           2│           0│      1│
+|────────────┴────────────┴───────|

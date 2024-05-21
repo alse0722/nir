@@ -1,0 +1,80 @@
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 2 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D1 n=2 e=1
+>Z 1 graphs generated in 0.00 sec
+Number of vertices: 2
+Total graphs processed: 1
+Elapsed time: 0.001 seconds
+Domination statistics:
+[{dom_number: 2, count: 1}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 3 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D2 n=3 e=2-3
+>Z 2 graphs generated in 0.00 sec
+Number of vertices: 3
+Total graphs processed: 2
+Elapsed time: 0.001 seconds
+Domination statistics:
+[{dom_number: 2, count: 2}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 4 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D3 n=4 e=3-6
+>Z 6 graphs generated in 0.00 sec
+Number of vertices: 4
+Total graphs processed: 6
+Elapsed time: 0.001 seconds
+Domination statistics:
+[{dom_number: 2, count: 6}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 5 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D4 n=5 e=4-10
+>Z 21 graphs generated in 0.00 sec
+Number of vertices: 5
+Total graphs processed: 21
+Elapsed time: 0.004 seconds
+Domination statistics:
+[{dom_number: 2, count: 19}, {dom_number: 3, count: 2}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 6 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D5 n=6 e=5-15
+>Z 112 graphs generated in 0.00 sec
+Number of vertices: 6
+Total graphs processed: 112
+Elapsed time: 0.011 seconds
+Domination statistics:
+[{dom_number: 2, count: 96}, {dom_number: 3, count: 14}, {dom_number: 4, count: 2}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 7 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D6 n=7 e=6-21
+>Z 853 graphs generated in 0.00 sec
+Number of vertices: 7
+Total graphs processed: 853
+Elapsed time: 0.051 seconds
+Domination statistics:
+[{dom_number: 2, count: 670}, {dom_number: 3, count: 163}, {dom_number: 4, count: 20}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 8 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D7 n=8 e=7-28
+>Z 11117 graphs generated in 0.01 sec
+Number of vertices: 8
+Total graphs processed: 11117
+Elapsed time: 0.603 seconds
+Domination statistics:
+[{dom_number: 2, count: 8191}, {dom_number: 3, count: 2583}, {dom_number: 4, count: 340}, {dom_number: 5, count: 3}]
+
+smallsany@DESKTOP-9BBBN4N ~/nauty2_8_8
+$ ./geng 9 -c | java java/GraphParser1_2.java
+>A ./geng -cd1D8 n=9 e=8-36
+>Z 261080 graphs generated in 0.16 sec
+Number of vertices: 9
+Total graphs processed: 261080
+Elapsed time: 27.67 seconds
+Domination statistics:
+[{dom_number: 2, count: 183149}, {dom_number: 3, count: 70667}, {dom_number: 4, count: 7151}, {dom_number: 5, count: 111}, {dom_number: 6, count: 2
+}]
